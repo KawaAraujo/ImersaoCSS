@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://i.imgur.com/2mQr4w1.png");
+  background-size: auto 109vh;
+  font-family: Optima;
+  height: 150vh;
+}
+
+.menu {
+  background-color: beige;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+  font-size: 20px
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  color: brown;
+  text-align: center;
+}
+
+.site-title {
+font-size: 50px;
+}
+
+.site-subtitle {
+  font-style: italic;
+  font-size: 30px;  
+}
